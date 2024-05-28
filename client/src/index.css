@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none  ;
+    list-style: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    #header{
+        padding: 20px 20px;
+    }
+    
+    #header p , span{
+        font-size: 0.8rem;
+    }
+    #navbar li{
+        list-style: none;
+        padding: 0px 10px;
+        position: relative;
+    }
+    
+}
