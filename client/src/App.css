@@ -57,6 +57,91 @@
 }
 
 
+/* Bannar */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4rem;
+    gap: 2rem ;
+    background-color: white;
+  }
+
+  .banner-text {
+   max-width: 50%;
+  }
+  
+  .banner-subtitle {
+    color: #58a14b;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .banner-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner-description {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .banner-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .banner-button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .demo-button {
+    background-color: #58a14b;
+    color: #fff;
+  }
+  
+  .signup-button {
+    background-color: #fff;
+    color: #58a14b;
+    border: 2px solid #58a14b;
+  }
+  
+  .banner-image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 footer{
     background: #e3e6f3;

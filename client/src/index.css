@@ -7,19 +7,50 @@
     list-style: none;
 }
 
-
-
-
-@media screen and (max-width:600px) {
+@media (max-width: 1200px) {
+    .banner-title {
+      font-size: 2rem;
+    }
+    
+    .banner-description {
+      font-size: 1rem;
+    }
+    
+    .banner-button {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
     .permalinks{
-       flex-direction: column;
-       gap: 1.5rem;
-    }
+        flex-direction: column;
+        gap: 1.5rem;
+     }
+ 
+     .footer_social{
+         margin-bottom: 2.6rem;
+     }
 
-    .footer_social{
-        margin-bottom: 2.6rem;
+    .banner-container {
+      flex-direction: column;
+      align-items: flex-start;
     }
-}
+    
+    .banner-text, .banner-image {
+      max-width: 100%;
+    }
+    
+    .banner-title {
+      font-size: 1.5rem;
+    }
+    
+    .banner-description {
+      font-size: 16px;
+    }
+  }
+
+
 @media screen and (max-width: 480px) {
     #header{
         padding: 20px 20px;
@@ -33,5 +64,31 @@
         padding: 0px 10px;
         position: relative;
     }
+
+    .banner-container {
+        margin: 4rem 20px;
+    }
+
+    .banner-title {
+        font-size: 24px;
+      }
+      
+      .banner-description {
+        font-size: 14px;
+      }
+      
+      .banner-button {
+        font-size: 12px;
+        padding: 6px 12px;
+      }
+      
+      .banner-buttons {
+        flex-direction: column;
+      }
     
+      .banner-image img {
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+      }
 }
