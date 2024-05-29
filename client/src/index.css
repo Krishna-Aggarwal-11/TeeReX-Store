@@ -50,9 +50,15 @@
   .banner-description {
     font-size: 16px;
   }
+
+  .products .products-container{
+    justify-content: center;
+  }
+
   #newsletter .form {
     width: 70%;
   }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -95,6 +101,10 @@
     width: 200px;
     height: 300px;
     border-radius: 10px;
+  }
+
+  .products h2 {
+    font-size: 2rem;
   }
   #newsletter {
     padding: 40px 20px;

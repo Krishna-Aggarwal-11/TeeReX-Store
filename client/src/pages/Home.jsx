@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BG from "../assets/banner/bg1.jpg";
+import ProductCard from "../components/ProductCard";
 
 const Home = () => {
   return (
@@ -25,7 +26,36 @@ const Home = () => {
         </div>
       </div>
 
-      
+      <div className="products">
+      <h2>Featured Products</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div className="products-container">
+          <ProductCard/>
+          <ProductCard/>
+          <ProductCard/>
+          <ProductCard/>
+          <ProductCard/>
+        </div>
+      </div>
+
+       
+      <div >
+
+      </div>
+
+
+
+      <div className="products">
+      <h2>New Arrivals Products</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div className="products-container">
+          <ProductCard/>
+          <ProductCard/>
+          <ProductCard/>
+          <ProductCard/>
+          <ProductCard/>
+        </div>
+      </div>
     </div>
   );
 };
