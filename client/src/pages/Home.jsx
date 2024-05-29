@@ -24,6 +24,8 @@ const Home = () => {
           <img src={BG} alt="TeeReX Banner" />
         </div>
       </div>
+
+      
     </div>
   );
 };

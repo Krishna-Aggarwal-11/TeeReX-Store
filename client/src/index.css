@@ -1,94 +1,105 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none  ;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 
 @media (max-width: 1200px) {
-    .banner-title {
-      font-size: 2rem;
-    }
-    
-    .banner-description {
-      font-size: 1rem;
-    }
-    
-    .banner-button {
-      font-size: 1rem;
-      padding: 8px 16px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .permalinks{
-        flex-direction: column;
-        gap: 1.5rem;
-     }
- 
-     .footer_social{
-         margin-bottom: 2.6rem;
-     }
-
-    .banner-container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    
-    .banner-text, .banner-image {
-      max-width: 100%;
-    }
-    
-    .banner-title {
-      font-size: 1.5rem;
-    }
-    
-    .banner-description {
-      font-size: 16px;
-    }
+  .banner-title {
+    font-size: 2rem;
   }
 
+  .banner-description {
+    font-size: 1rem;
+  }
+
+  .banner-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer_social {
+    margin-bottom: 2.6rem;
+  }
+
+  .banner-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-text,
+  .banner-image {
+    max-width: 100%;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
+  }
+
+  .banner-description {
+    font-size: 16px;
+  }
+  #newsletter .form {
+    width: 70%;
+  }
+}
 
 @media screen and (max-width: 480px) {
-    #header{
-        padding: 20px 20px;
-    }
-    
-    #header p , span{
-        font-size: 0.8rem;
-    }
-    #navbar li{
-        list-style: none;
-        padding: 0px 10px;
-        position: relative;
-    }
+  #header {
+    padding: 20px 20px;
+  }
 
-    .banner-container {
-        margin: 4rem 20px;
-    }
+  #header p,
+  span {
+    font-size: 0.8rem;
+  }
+  #navbar li {
+    list-style: none;
+    padding: 0px 10px;
+    position: relative;
+  }
 
-    .banner-title {
-        font-size: 24px;
-      }
-      
-      .banner-description {
-        font-size: 14px;
-      }
-      
-      .banner-button {
-        font-size: 12px;
-        padding: 6px 12px;
-      }
-      
-      .banner-buttons {
-        flex-direction: column;
-      }
-    
-      .banner-image img {
-        width: 200px;
-        height: 300px;
-        border-radius: 10px;
-      }
+  .banner-container {
+    margin: 4rem 20px;
+  }
+
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .banner-description {
+    font-size: 14px;
+  }
+
+  .banner-button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .banner-buttons {
+    flex-direction: column;
+  }
+
+  .banner-image img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  #newsletter {
+    padding: 40px 20px;
+  }
+  #newsletter .form {
+    width: 100%;
+  }
 }

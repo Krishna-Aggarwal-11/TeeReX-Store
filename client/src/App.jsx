@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import './App.css'
 import Products from './pages/Products';
 import Cart from './pages/Cart';
+import Newsletter from './components/Newsletter';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
           <Route path="/products" element={<Products />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
-
+      <Newsletter/>
       <Footer/>
       </BrowserRouter>
     </div>
