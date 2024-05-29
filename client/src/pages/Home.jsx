@@ -39,9 +39,20 @@ const Home = () => {
       </div>
 
        
-      <div >
-
-      </div>
+      <div id="offer-bannner">
+        <div className="offer-box">
+            <h4>Summer Offer</h4>
+            <h2>Upto 50% Off</h2>
+            <span>On lastest collection</span>
+           <Link to={"/products"}><button >Shop now</button></Link>
+        </div>
+        <div className="offer-box offer-box2">
+            <h4>Fashionable Collection</h4>
+            <h2>for upcoming season</h2>
+            <span>Get some handsome offers</span>
+            <Link to={"/products"}><button>Collection</button></Link>
+        </div>
+    </div>
 
 
 
